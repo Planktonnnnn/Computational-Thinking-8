@@ -1,6 +1,6 @@
 input("Let's play Madlibs!")
 going = input("How's it going?")
-print (f"Well im doing {going} too")
+print(f"Well im doing {going} too")
 name = input("What is your name?")
 print(f"Hello {name}, and welcome to my text messages project")
 color = input("What is favorite color?")
