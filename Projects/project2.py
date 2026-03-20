@@ -46,3 +46,12 @@ elif answer5 == "C" :
 
 
 print(f"You're score is {morning_points} morning points, {night_points} night points, and {both_points} points where you like them equally.")
+
+if morning_points > night_points and both_points :
+    print("You enjoy the mornings.")
+
+if night_points > morning_points and both_points :
+    print("You enjoy the nights.")
+
+if both_points > night_points and morning_points :
+    print("You enjoy morning and night equally.")
