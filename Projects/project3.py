@@ -25,8 +25,9 @@ t4 = create_sprite("turtle2",x4,y4)
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
 for i in range(30):
-    x1 +=random.randint(7,13)
-    x2 +=random.randint(7,13)
+    #Turtle 1 has the best chances
+    x1 +=random.randint(8,14)
+    x2 +=random.randint(7,14)
     x3 +=random.randint(7,13)
     x4 +=random.randint(7,13)
     t1.goto(x1, y1)
